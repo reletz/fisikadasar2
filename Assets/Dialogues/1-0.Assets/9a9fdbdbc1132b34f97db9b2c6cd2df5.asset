@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 9a9fdbdbc1132b34f97db9b2c6cd2df5
   m_EditorClassIdentifier: 
   actorName: 
-  text: Petualangan Baru Dimulai
-  nextDialogue: {fileID: 11400000, guid: 5bf8e5b52848b2044a026f6c097b7521, type: 2}
+  text: Petualangan Baru Dimulai..
+  nextDialogue: {fileID: 11400000, guid: e4075b26b62fcc64ca19587ec2a5f544, type: 2}

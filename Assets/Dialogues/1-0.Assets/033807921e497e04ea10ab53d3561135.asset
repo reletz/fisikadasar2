@@ -16,6 +16,6 @@ MonoBehaviour:
   text: "I\u2019m bored\u2026"
   options:
   - text: Do you want to play tic tac toe?
-    nextDialogue: {fileID: 11400000, guid: c87814b994883c3419a90d68fc98d595, type: 2}
+    nextDialogue: {fileID: 11400000, guid: d2b1b063279f35e48b238cd0682b2f17, type: 2}
   - text: What should we do to kill time?
     nextDialogue: {fileID: 11400000, guid: 2847186b95cc85747a9cbe85ad5eb3c4, type: 2}

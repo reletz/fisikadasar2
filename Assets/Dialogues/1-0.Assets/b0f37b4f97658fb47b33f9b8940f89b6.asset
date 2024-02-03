@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 887e09bf56248374cbcaa15b7fe473ca, type: 3}
-  m_Name: 64645a82093c2d34d83a66d9a1f42da7
+  m_Name: b0f37b4f97658fb47b33f9b8940f89b6
   m_EditorClassIdentifier: 
   onTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1699890319316711522, guid: fb2b758e2296cca439a2a0e2be34eb3f, type: 3}
-        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1768265880414742553, guid: 1f755fda431773a4abf662be01f92a7a, type: 3}
+        m_TargetAssemblyTypeName: ActorManager, Assembly-CSharp
+        m_MethodName: SelectCharacter
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TicTacToe
+          m_StringArgument: Mom
           m_BoolArgument: 0
         m_CallState: 2
-  nextDialogue: {fileID: 11400000, guid: 7f8be710f9430c44589e81cdfb04f4d3, type: 2}
+  nextDialogue: {fileID: 11400000, guid: d2d134bf67c3a684786cc7eba84de982, type: 2}

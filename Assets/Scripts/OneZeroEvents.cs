@@ -13,6 +13,7 @@ public class OneZeroEvents : MonoBehaviour
     [SerializeField] private Sprite momSprite;
     [SerializeField] private Sprite emptySprite;
 
+    
     public void Initialize()
     {
         if (instance != null && instance != this) return;

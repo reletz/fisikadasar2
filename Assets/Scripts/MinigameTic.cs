@@ -122,13 +122,15 @@ public class MinigameTic : MonoBehaviour
         {
             //Put GetInt on the dialog scene & make it fastforward to Mom's response you winning
             PlayerPrefs.SetInt("Win",1);
-            SceneManager.LoadSceneAsync(0);
+            SceneHandler.instance.AddMessage("TicTacToeWin");
+            SceneHandler.instance.LoadScene("1-0");
         }
         if(lose && bg.color.a >= 1)
         {
             //Put GetInt on the dialog scene & make it fastforward to Mom's response you losing
             PlayerPrefs.SetInt("Lose",1);
-            SceneManager.LoadSceneAsync(0);
+            SceneHandler.instance.AddMessage("TicTacToeLose");
+            SceneHandler.instance.LoadScene("1-0");
         }
     }
 

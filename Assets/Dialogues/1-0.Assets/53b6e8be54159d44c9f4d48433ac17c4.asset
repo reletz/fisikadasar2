@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: You
   text: Do you want to play tic tac toe?
-  nextDialogue: {fileID: 11400000, guid: 585669f6b005bbb41a6710305459ca5d, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 6a71c7a489a1d964384ef98573d564c2, type: 2}

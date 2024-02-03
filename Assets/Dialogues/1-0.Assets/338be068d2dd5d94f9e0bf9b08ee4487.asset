@@ -39,4 +39,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1768265880414742553, guid: 1f755fda431773a4abf662be01f92a7a, type: 3}
+        m_TargetAssemblyTypeName: ActorManager, Assembly-CSharp
+        m_MethodName: ChangeCharacterEyebrow
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 9f04cd1062ecf7646bde3f72db16a172, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   nextDialogue: {fileID: 11400000, guid: 079beeab01959044d89c8777a993b777, type: 2}

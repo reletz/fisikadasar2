@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
-  m_Name: ad5d3d383a545184f867afa843b45987
+  m_Name: e9634d67670e0c6419c78836df5f8db9
   m_EditorClassIdentifier: 
-  actorName: Momm
-  text: "Let\u2019s do tic tac toe, that would be fun."
-  nextDialogue: {fileID: 11400000, guid: ea466bf77324c134bbe5016727836ce9, type: 2}
+  actorName: You
+  text: I also kinda can speak Indonesian fluently.
+  nextDialogue: {fileID: 11400000, guid: 1074f55d00a89c84aad322dc1341fa3b, type: 2}

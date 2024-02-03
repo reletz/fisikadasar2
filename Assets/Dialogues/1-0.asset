@@ -129,10 +129,10 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: 576bc52677b72804a8335e16ac18dcca, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: -244
-      y: 794
+      x: -262
+      y: 821
       width: 213
-      height: 173
+      height: 469
   - dialogue: {fileID: 11400000, guid: 4c2f6ded119192141ba4b2d826ac4eb7, type: 2}
     nodePosition:
       serializedVersion: 2
@@ -269,10 +269,10 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: 34b6fc46af558414f974196d11037caf, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: 1501
-      y: -9
+      x: 1528
+      y: -45
       width: 213
-      height: 173
+      height: 224
   - dialogue: {fileID: 11400000, guid: 535eb23ca267d8d418626ff505e7d8b6, type: 2}
     nodePosition:
       serializedVersion: 2
@@ -298,9 +298,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 2058
-      y: 7
+      y: 9
       width: 213
-      height: 173
+      height: 175
   - dialogue: {fileID: 11400000, guid: e9d03d49919759543a96321933270549, type: 2}
     nodePosition:
       serializedVersion: 2
@@ -374,10 +374,10 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: dca55feb3edcb22488c4ebb3c58c51f7, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: 3936
-      y: -176
+      x: 3965
+      y: -158
       width: 213
-      height: 371
+      height: 469
   - dialogue: {fileID: 11400000, guid: 585669f6b005bbb41a6710305459ca5d, type: 2}
     nodePosition:
       serializedVersion: 2
@@ -479,8 +479,8 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: 517317eb92a6e124e8e9b6947dd25e86, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: 7287
-      y: 430
+      x: 7297
+      y: 431
       width: 208
       height: 146
   - dialogue: {fileID: 11400000, guid: 39243a98bf67eef4a81e126ba43eae64, type: 2}
@@ -528,10 +528,10 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: 5bf8e5b52848b2044a026f6c097b7521, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: 7025
-      y: 505
+      x: 6933
+      y: 531
       width: 213
-      height: 173
+      height: 175
   - dialogue: {fileID: 11400000, guid: a70a0844b15493e4fb449abcb5d42612, type: 2}
     nodePosition:
       serializedVersion: 2
@@ -549,10 +549,52 @@ MonoBehaviour:
   - dialogue: {fileID: 11400000, guid: 7f0076c923db6024cb55aee277e0288f, type: 2}
     nodePosition:
       serializedVersion: 2
-      x: 5617
-      y: 576
+      x: 5611
+      y: 606
       width: 213
       height: 175
+  - dialogue: {fileID: 11400000, guid: 36518968275479344b5f72919b624905, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4839
+      y: 666
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: d2b1b063279f35e48b238cd0682b2f17, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4406
+      y: 52
+      width: 213
+      height: 224
+  - dialogue: {fileID: 11400000, guid: d2d134bf67c3a684786cc7eba84de982, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4839
+      y: 871
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 5c43efb46e18cbc44ac25937de500a73, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1592
+      y: 328
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 6a71c7a489a1d964384ef98573d564c2, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4888
+      y: -15
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: e4075b26b62fcc64ca19587ec2a5f544, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7321
+      y: 706
+      width: 208
+      height: 159
   startingPosition:
     serializedVersion: 2
     x: 0

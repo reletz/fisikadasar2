@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 2e9ff5dc00bad304fabee9a55f1aab00
   m_EditorClassIdentifier: 
   actorName: 
-  text: Inilah hari terakhir Anda di New York
+  text: Inilah hari terakhir Anda di New York City.
   nextDialogue: {fileID: 11400000, guid: 51337b2f93badce458f6f2854cb9ff62, type: 2}
