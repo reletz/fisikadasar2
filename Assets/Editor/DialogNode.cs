@@ -67,11 +67,11 @@ public class TextDialogueNode : DialogueNode
         TextField actorText = new TextField()
         {
             name = string.Empty,
-            value = string.Empty,
+            value = textDialogue.actorName,
             multiline = true,
         };
         actorText.style.whiteSpace = WhiteSpace.Normal;
-        actorText.RegisterValueChangedCallback(evt => { textDialogue.actorName = evt.newValue; });
+        actorText.RegisterValueChangedCallback(evt => { textDialogue.actorName = evt.newValue; EditorUtility.SetDirty(textDialogue); });
         actorScrollView.Add(actorText);
 
         Label dialogueLabel = new Label("Dialogue");
@@ -84,11 +84,11 @@ public class TextDialogueNode : DialogueNode
         TextField dialogueText = new TextField()
         {
             name = string.Empty,
-            value = string.Empty,
+            value = textDialogue.text,
             multiline = true,
         };
         dialogueText.style.whiteSpace = WhiteSpace.Normal;
-        dialogueText.RegisterValueChangedCallback(evt => { textDialogue.text = evt.newValue; });
+        dialogueText.RegisterValueChangedCallback(evt => { textDialogue.text = evt.newValue; EditorUtility.SetDirty(textDialogue); });
         scrollView.Add(dialogueText);
 
         Port inPort = InstantiatePort(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(bool));
@@ -152,11 +152,11 @@ public class OptionDialogueNode : DialogueNode
         TextField actorText = new TextField()
         {
             name = string.Empty,
-            value = string.Empty,
+            value = optionDialogue.actorName,
             multiline = true,
         };
         actorText.style.whiteSpace = WhiteSpace.Normal;
-        actorText.RegisterValueChangedCallback(evt => { optionDialogue.actorName = evt.newValue; });
+        actorText.RegisterValueChangedCallback(evt => { optionDialogue.actorName = evt.newValue; EditorUtility.SetDirty(optionDialogue); });
         actorScrollView.Add(actorText);
 
         Label dialogueLabel = new Label("Dialogue");
@@ -169,10 +169,10 @@ public class OptionDialogueNode : DialogueNode
         TextField dialogueText = new TextField()
         {
             name = string.Empty,
-            value = string.Empty,
+            value = optionDialogue.text,
             multiline = true
         };
-        dialogueText.RegisterValueChangedCallback(evt => { optionDialogue.text = evt.newValue; });
+        dialogueText.RegisterValueChangedCallback(evt => { optionDialogue.text = evt.newValue; EditorUtility.SetDirty(optionDialogue); });
         scrollView.Add(dialogueText);
 
         Port inPort = InstantiatePort(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(bool));
@@ -208,6 +208,7 @@ public class OptionDialogueNode : DialogueNode
     {
         DialogueOption newDialogOption = new DialogueOption() {text = text};
         optionDialogue.options.Add(newDialogOption);
+        EditorUtility.SetDirty(optionDialogue);
         
         CreateNewOption(newDialogOption);
     }
@@ -224,7 +225,7 @@ public class OptionDialogueNode : DialogueNode
             name = dialogueOption.text,
             value = dialogueOption.text
         };
-        option.RegisterValueChangedCallback(evt => { outPort.name = evt.newValue; dialogueOption.text = evt.newValue; });
+        option.RegisterValueChangedCallback(evt => { outPort.name = evt.newValue; dialogueOption.text = evt.newValue; EditorUtility.SetDirty(optionDialogue); });
         outPort.contentContainer.Add(option);
 
         Button deleteButton = new Button(() => { RemoveOption(outPort, dialogueOption); })
@@ -253,6 +254,7 @@ public class OptionDialogueNode : DialogueNode
         RefreshExpandedState();
 
         optionDialogue.options.Remove(dialogueOption);
+        EditorUtility.SetDirty(optionDialogue);
     }
 }
 
@@ -280,6 +282,7 @@ public class EventDialogueNode : DialogueNode
             if (EditorGUI.EndChangeCheck())
             {
                 serializedObject.ApplyModifiedProperties();
+                EditorUtility.SetDirty(eventDialogue);
             }
         });
         extensionContainer.Add(eventSlot);

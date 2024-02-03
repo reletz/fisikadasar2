@@ -55,7 +55,8 @@ public class DialogueGraphView : GraphView
         AssetDatabase.CreateAsset(newTextDialogue, currentDialoguesFolder + "\\" + GUID.Generate() + ".asset");
 
         TextDialogueNode newTextDialogueNode = TextDialogueNode.Create(newTextDialogue);
-        currentDialogueGraph.dialogues.Add((newTextDialogue, newTextDialogueNode.GetPosition()));
+        currentDialogueGraph.dialogues.Add(new(newTextDialogue, newTextDialogueNode.GetPosition()));
+        EditorUtility.SetDirty(currentDialogueGraph);
 
         AddElement(newTextDialogueNode);
     }
@@ -68,7 +69,8 @@ public class DialogueGraphView : GraphView
         AssetDatabase.CreateAsset(newOptionDialogue, currentDialoguesFolder + "\\" + GUID.Generate() + ".asset");
 
         OptionDialogueNode newOptionDialogueNode = OptionDialogueNode.Create(newOptionDialogue);
-        currentDialogueGraph.dialogues.Add((newOptionDialogue, newOptionDialogueNode.GetPosition()));
+        currentDialogueGraph.dialogues.Add(new(newOptionDialogue, newOptionDialogueNode.GetPosition()));
+        EditorUtility.SetDirty(currentDialogueGraph);
 
         AddElement(newOptionDialogueNode);
     }
@@ -80,7 +82,8 @@ public class DialogueGraphView : GraphView
         AssetDatabase.CreateAsset(newEventDialogue, currentDialoguesFolder + "\\" + GUID.Generate() + ".asset");
 
         EventDialogueNode newEventDialogueNode = EventDialogueNode.Create(newEventDialogue);
-        currentDialogueGraph.dialogues.Add((newEventDialogue, newEventDialogueNode.GetPosition()));
+        currentDialogueGraph.dialogues.Add(new(newEventDialogue, newEventDialogueNode.GetPosition()));
+        EditorUtility.SetDirty(currentDialogueGraph);
 
         AddElement(newEventDialogueNode);
     }
@@ -121,18 +124,22 @@ public class DialogueGraphView : GraphView
                 if (edge.output.node == startingNode)
                 {
                     currentDialogueGraph.startingPoint = ((DialogueNode) edge.input.node).GetDialogue();
+                    EditorUtility.SetDirty(currentDialogueGraph);
                 }
                 else if (edge.output.node is TextDialogueNode textNode)
                 {
                     textNode.textDialogue.nextDialogue = ((DialogueNode) edge.input.node).GetDialogue();
+                    EditorUtility.SetDirty(textNode.textDialogue);
                 }
                 else if (edge.output.node is OptionDialogueNode optionNode)
                 {
                     optionNode.optionDialogue.options.Find(option => { return option.text == edge.output.name; }).nextDialogue = ((DialogueNode) edge.input.node).GetDialogue();
+                    EditorUtility.SetDirty(optionNode.optionDialogue);
                 }
                 else if (edge.output.node is EventDialogueNode eventNode)
                 {
                     eventNode.eventDialogue.nextDialogue = ((DialogueNode) edge.input.node).GetDialogue();
+                    EditorUtility.SetDirty(eventNode.eventDialogue);
                 }
             });
         }
@@ -147,26 +154,31 @@ public class DialogueGraphView : GraphView
                     if (edge.output.node == startingNode)
                     {
                         currentDialogueGraph.startingPoint = null;
+                        EditorUtility.SetDirty(currentDialogueGraph);
                     }
                     else if (edge.output.node is TextDialogueNode textNode)
                     {
                         textNode.textDialogue.nextDialogue = null;
+                        EditorUtility.SetDirty(textNode.textDialogue);
                     }
                     else if (edge.output.node is OptionDialogueNode optionNode)
                     {
                         optionNode.optionDialogue.options.Find(option => { return option.text == edge.output.name; }).nextDialogue = null;
+                        EditorUtility.SetDirty(optionNode.optionDialogue);
                     }
                     else if (edge.output.node is EventDialogueNode eventNode)
                     {
                         eventNode.eventDialogue.nextDialogue = null;
+                        EditorUtility.SetDirty(eventNode.eventDialogue);
                     }
                 }
                 else if (element is DialogueNode)
                 {
                     DialogueNode node = (DialogueNode) element;
 
-                    int index = currentDialogueGraph.dialogues.FindIndex(pair => { return pair.Item1 == node.GetDialogue(); });
+                    int index = currentDialogueGraph.dialogues.FindIndex(pair => { return pair.dialogue == node.GetDialogue(); });
                     currentDialogueGraph.dialogues.RemoveAt(index);
+                    EditorUtility.SetDirty(currentDialogueGraph);
 
                     string assetPath = AssetDatabase.GetAssetPath(node.GetDialogue());
                     AssetDatabase.DeleteAsset(assetPath);
@@ -181,13 +193,15 @@ public class DialogueGraphView : GraphView
                 if (element == startingNode)
                 {
                     currentDialogueGraph.startingPosition = startingNode.GetPosition();
+                    EditorUtility.SetDirty(currentDialogueGraph);
                     return;
                 }
 
                 DialogueNode node = (DialogueNode) element;
 
-                int index = currentDialogueGraph.dialogues.FindIndex(pair => { return pair.Item1 == node.GetDialogue(); });
-                currentDialogueGraph.dialogues[index] = (node.GetDialogue(), node.GetPosition());
+                int index = currentDialogueGraph.dialogues.FindIndex(pair => { return pair.dialogue == node.GetDialogue(); });
+                currentDialogueGraph.dialogues[index] = new(node.GetDialogue(), node.GetPosition());
+                EditorUtility.SetDirty(currentDialogueGraph);
             });
         }
 
@@ -206,8 +220,8 @@ public class DialogueGraphView : GraphView
         List<(BaseDialogue dialogue, DialogueNode node)> generated = new List<(BaseDialogue dialogue, DialogueNode node)>();
 
         currentDialogueGraph.dialogues.ForEach( dialogueNode => {
-            BaseDialogue dialogue = dialogueNode.Item1;
-            Rect position = dialogueNode.Item2;
+            BaseDialogue dialogue = dialogueNode.dialogue;
+            Rect position = dialogueNode.nodePosition;
 
             if (dialogue is TextDialogue)
             {

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
-  m_Name: 32dabdc9c859cb1429a28dc5b1a4764a
+  m_Name: 9d0ec0c17f2361643a255f6f1fc0fcc8
   m_EditorClassIdentifier: 
-  actorName: 
-  text: 
-  nextDialogue: {fileID: 0}
+  actorName: Ninja
+  text: Yay!
+  nextDialogue: {fileID: 11400000, guid: edaca29c9a28f124aadd2c5f67418491, type: 2}

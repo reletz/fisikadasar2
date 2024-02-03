@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "Dialog/EventDialogue")]
+[CreateAssetMenu(menuName = "Dialog/EventDialogue"), Serializable]
 public  class EventDialogue : BaseDialogue
 {
     public UnityEvent onTrigger;
@@ -12,6 +13,7 @@ public  class EventDialogue : BaseDialogue
     public override void Enter()
     {
         onTrigger.Invoke();
+        EnterNext();
     }
 
     private void EnterNext()
