@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77a67ebf3bc8ca4fa56e096ddde6043, type: 3}
+  m_Name: a45d9abddefbc7643aee9e5384196e1d
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: Yeah, easy win for sure!
+  options:
+  - text: Good game, Mom!
+    nextDialogue: {fileID: 11400000, guid: bc1912d039bb82548b1e652b615b436c, type: 2}
+  - text: "Let\u2019s do a rematch, again!"
+    nextDialogue: {fileID: 11400000, guid: 7f0076c923db6024cb55aee277e0288f, type: 2}

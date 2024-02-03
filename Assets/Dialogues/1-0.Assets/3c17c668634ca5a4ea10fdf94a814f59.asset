@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
+  m_Name: 3c17c668634ca5a4ea10fdf94a814f59
+  m_EditorClassIdentifier: 
+  actorName: Loudspeaker
+  text: "The Plane from New York to Jakarta is about to board now.\r"
+  nextDialogue: {fileID: 11400000, guid: aaa9170f401c7ec408f22c389d7e78dc, type: 2}

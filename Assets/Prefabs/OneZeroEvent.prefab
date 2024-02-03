@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &255270137133732030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255270137133732028}
+  - component: {fileID: 255270137133732029}
+  m_Layer: 0
+  m_Name: OneZeroEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &255270137133732028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255270137133732030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &255270137133732029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255270137133732030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e7d504d34452e44a1dafde569831aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ticTacToeWinEntryPoint: {fileID: 11400000, guid: bc1912d039bb82548b1e652b615b436c, type: 2}
+  ticTacToeLoseEntryPoint: {fileID: 11400000, guid: 7f8be710f9430c44589e81cdfb04f4d3, type: 2}
+  airportBackground: {fileID: 21300000, guid: 8d23f3dec9407f945b882432767dbe16, type: 3}
+  mainCharacterSprite: {fileID: 21300000, guid: c983a17a64140a548898aa144d7790a1, type: 3}
+  momSprite: {fileID: 21300000, guid: 2879b1b8c29014247b4dfbf5722a1e9d, type: 3}
+  emptySprite: {fileID: 21300000, guid: 21d0b0264984b1746b32690a1472c0fc, type: 3}

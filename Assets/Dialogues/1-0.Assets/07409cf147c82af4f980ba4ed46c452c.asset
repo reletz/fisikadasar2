@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77a67ebf3bc8ca4fa56e096ddde6043, type: 3}
+  m_Name: 07409cf147c82af4f980ba4ed46c452c
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: You have an opportunity to explore that said country, I heard it has a lot
+    of culture that you could deep dive into.
+  options:
+  - text: "(Oh well, let\u2019s give it a shot) "
+    nextDialogue: {fileID: 11400000, guid: 34b6fc46af558414f974196d11037caf, type: 2}
+  - text: '(tuck into bed) '
+    nextDialogue: {fileID: 11400000, guid: b79bfa75c5ff24e458a6a21604704202, type: 2}

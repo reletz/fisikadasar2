@@ -36,7 +36,7 @@ public class ActorManager : MonoBehaviour
         if (instance != this) {instance.RemoveCharacter(); return;}
 
         actors.Remove(selectedActor);
-        Destroy(selectedActor);
+        Destroy(selectedActor.gameObject);
         selectedActor = null;
     }
 

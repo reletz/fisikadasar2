@@ -20,10 +20,16 @@ public class OptionDialogue : BaseDialogue
 
     public override void Enter()
     {
+        DialogueReader.instance.ShowDialogueBox();
+
         if (!string.IsNullOrEmpty(actorName))
         {
             DialogueReader.instance.ShowName();
             DialogueReader.instance.ChangeActorName(actorName);
+        }
+        else
+        {
+            DialogueReader.instance.HideName();
         }
 
         DialogueReader.instance.RequestText(text);

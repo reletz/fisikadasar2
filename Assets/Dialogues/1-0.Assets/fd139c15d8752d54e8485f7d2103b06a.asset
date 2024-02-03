@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
+  m_Name: fd139c15d8752d54e8485f7d2103b06a
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: "That\u2019s the spirit! Hey, to celebrate your acceptance, let\u2019s go
+    eat at your favorite restaurant. That\u2019ll cheer you up."
+  nextDialogue: {fileID: 11400000, guid: 72d6be2cb6a83c0429a81c5db9203559, type: 2}

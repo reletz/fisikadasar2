@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
+  m_Name: 0afd8b282dd39df4989218c9fd0eda5a
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: Take care of yourself and have a lot of fun there!
+  nextDialogue: {fileID: 11400000, guid: 6f56fff3d5c6be6428c0ffb4123d23b2, type: 2}
