@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e77a67ebf3bc8ca4fa56e096ddde6043, type: 3}
-  m_Name: 7237e1f8cb1e111449f035355858b8ab
+  m_Name: eef3957ada80fde4f92091c5485ba7c9
   m_EditorClassIdentifier: 
-  actorName: 
-  text: 
-  options: []
+  actorName: Ninja
+  text: How are you?
+  options:
+  - text: Good
+    nextDialogue: {fileID: 11400000, guid: 36a7dc0b30b30a64db7503a0a5ce350c, type: 2}
+  - text: Great
+    nextDialogue: {fileID: 11400000, guid: fd8703ae7ffb1164fa3cc7959ba75527, type: 2}

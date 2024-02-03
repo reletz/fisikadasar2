@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Dialog/TextDialogue")]
+[CreateAssetMenu(menuName = "Dialog/TextDialogue"), Serializable]
 public class TextDialogue : BaseDialogue
 {
     public string actorName;

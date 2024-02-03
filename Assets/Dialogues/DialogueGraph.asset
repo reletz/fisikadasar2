@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57242b0a7c039484599a46fd63fccb6a, type: 3}
+  m_Name: DialogueGraph
+  m_EditorClassIdentifier: 
+  startingPoint: {fileID: 11400000, guid: 2b5320077349da64f989b7017cdfe0b5, type: 2}
+  dialogues:
+  - dialogue: {fileID: 11400000, guid: 2b5320077349da64f989b7017cdfe0b5, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 136
+      y: 39
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 6af791e855831444dba73c3d11f73ef4, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 442
+      y: 39
+      width: 218
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 36a7dc0b30b30a64db7503a0a5ce350c, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 836
+      y: -38
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: fd8703ae7ffb1164fa3cc7959ba75527, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 836
+      y: 169
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: edaca29c9a28f124aadd2c5f67418491, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1110
+      y: -38
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 2ac63ea9afff8804690d9e4ab5193046, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1110
+      y: 169
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: b00ec33a2976a214495faab8346e261f, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1444
+      y: -38
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 34091c3b34c24ed4084a078fe70bb851, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1769
+      y: -38
+      width: 213
+      height: 173
+  startingPosition:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: NaN
+    height: NaN
+  savePath: Assets/Dialogues/TestDialogueAssets

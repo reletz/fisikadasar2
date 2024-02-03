@@ -11,7 +11,7 @@ public class DialogueOption
     public BaseDialogue nextDialogue;
 }
 
-[CreateAssetMenu(menuName = "Dialog/OptionDialogue")]
+[CreateAssetMenu(menuName = "Dialog/OptionDialogue"), Serializable]
 public class OptionDialogue : BaseDialogue
 {
     public string actorName;
