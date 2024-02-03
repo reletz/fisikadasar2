@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: fccc81c29dbce9b42a452549749066be
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: "Let\u2019s go!!"
   nextDialogue: {fileID: 11400000, guid: 38747c83282a11e4a909455c659bd48e, type: 2}

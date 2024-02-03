@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: 6a9cf141702717a44a9fc45e0bb3edb8
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: "I don\u2019t want to talk about it."
   nextDialogue: {fileID: 11400000, guid: eb1a7d7d39cb3084eb0ecfcc31c859eb, type: 2}

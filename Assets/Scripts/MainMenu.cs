@@ -23,7 +23,6 @@ public class MainMenu : MonoBehaviour
         if(on && bg.color.a >= 1)
         {
             on=false;
-            BG.SetActive(false);
             SceneHandler.instance.LoadScene("1-0");
             Debug.Log("a");
         }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: e9634d67670e0c6419c78836df5f8db9
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: I also kinda can speak Indonesian fluently.
   nextDialogue: {fileID: 11400000, guid: 1074f55d00a89c84aad322dc1341fa3b, type: 2}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: 48b3de1101319e24cbdf4adc2bf9cb36
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: ',,,'
   nextDialogue: {fileID: 11400000, guid: a0c90872af4d2f34da6b1536e7cf8216, type: 2}

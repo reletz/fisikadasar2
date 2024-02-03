@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: 2f77384f1edfe024fabe1a2bf3a1f05c
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: "Well, Mom. This is it, I\u2019m about to depart for Jakarta now."
   nextDialogue: {fileID: 11400000, guid: 39243a98bf67eef4a81e126ba43eae64, type: 2}

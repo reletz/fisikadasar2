@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: 07823d6e1d96447448dd126ecfc5287c
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: Oh well, I guess i'll give it a shot. Who knows, maybe Indonesia would be
     a fun country to explore.
   nextDialogue: {fileID: 11400000, guid: 5c43efb46e18cbc44ac25937de500a73, type: 2}

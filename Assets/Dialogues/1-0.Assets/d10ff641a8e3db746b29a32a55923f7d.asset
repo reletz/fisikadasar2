@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: d10ff641a8e3db746b29a32a55923f7d
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: What should we do to kill time?
   nextDialogue: {fileID: 11400000, guid: 36518968275479344b5f72919b624905, type: 2}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: 53b6e8be54159d44c9f4d48433ac17c4
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: Do you want to play tic tac toe?
   nextDialogue: {fileID: 11400000, guid: 6a71c7a489a1d964384ef98573d564c2, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a67ebf3bc8ca4fa56e096ddde6043, type: 3}
   m_Name: 033807921e497e04ea10ab53d3561135
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice
   text: "I\u2019m bored\u2026"
   options:
   - text: Do you want to play tic tac toe?

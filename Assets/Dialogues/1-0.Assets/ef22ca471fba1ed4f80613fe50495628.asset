@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
   m_Name: ef22ca471fba1ed4f80613fe50495628
   m_EditorClassIdentifier: 
-  actorName: You
+  actorName: Alice (You)
   text: "What? I thought I got accepted to study abroad in Japan. Why\u2019s it Indonesia?"
   nextDialogue: {fileID: 11400000, guid: 3b8c52d6d10e8ef4591d4b19737dd4ac, type: 2}
