@@ -1,0 +1,541 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57242b0a7c039484599a46fd63fccb6a, type: 3}
+  m_Name: 1-0
+  m_EditorClassIdentifier: 
+  startingPoint: {fileID: 11400000, guid: 969903a6461573746ba6455d826e7eae, type: 2}
+  dialogues:
+  - dialogue: {fileID: 11400000, guid: f698f4453eda4e14b81708de4241b805, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -468
+      y: 193
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: 256cee0d4beca2841827bc9ac6ce071b, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -239
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 4fbd724871d12e54cb0a795137aa6daa, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -9
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 8785915d5cf9dd6469ec92b517c6bc01, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 226
+      y: 193
+      width: 381
+      height: 170
+  - dialogue: {fileID: 11400000, guid: 072287089b325df4cb2d7b29deab3203, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 697
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: a43a164d202460a4989870f9acd07169, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 955
+      y: 193
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: 584a9923014ec0f4c92ffa61dd1ebda6, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1211
+      y: 193
+      width: 218
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 318665454c3fd294e8b91f11f4435bef, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1533
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 918b96682a4098045b0aecccbeb4f62e, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1786
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 6052924a5fc7523458eec46b1d4b952d, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2063
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: a886c9067a5401e4fa2e647763d8d5ad, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2339
+      y: 193
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 969903a6461573746ba6455d826e7eae, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -1107
+      y: 193
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 7212164b126b6d342a9b59febf6be16d, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -894
+      y: 193
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 1f972ba2151a5014f95daccf25339a21, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -681
+      y: 193
+      width: 213
+      height: 371
+  - dialogue: {fileID: 11400000, guid: 3b8c52d6d10e8ef4591d4b19737dd4ac, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -244
+      y: 389
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 0d8b0dac96cbec14a865a173dcee4afd, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -244
+      y: 592
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 576bc52677b72804a8335e16ac18dcca, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: -244
+      y: 794
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 4c2f6ded119192141ba4b2d826ac4eb7, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 389
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 4dff140bd44637c4fb1131b5932e7447, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 574
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: eb1a7d7d39cb3084eb0ecfcc31c859eb, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 293
+      y: 389
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 3ea24f84916a62b4c966ff57df4ae059, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 293
+      y: 594
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 118652b0a396a3f4e81604ff1d6a881e, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 293
+      y: 794
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: d98ea00b9789f3d44810130b6ea570f2, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 692
+      y: 391
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 5954def23716a2349bed106690d6d889, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2845
+      y: 442
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: bf6541987f4bba0448121fb71acb3da1, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 955
+      y: 401
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: b79bfa75c5ff24e458a6a21604704202, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1483
+      y: 442
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 2f50ad48307335341ae2969a3d31aa30, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1483
+      y: 636
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 8cd7e5c8c0fef964ba22b0f950d11fff, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1741
+      y: 442
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 6510ee9babfaef8499905de3b54c7634, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1741
+      y: 638
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 079beeab01959044d89c8777a993b777, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2063
+      y: 442
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 8b3c716026dec024da84f9bdc62d89fb, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1288
+      y: -220
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 8990217a6610c7d4ebb26281ec07e0ed, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1528
+      y: -343
+      width: 213
+      height: 224
+  - dialogue: {fileID: 11400000, guid: 1074f55d00a89c84aad322dc1341fa3b, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1786
+      y: -45
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: a2d6554bfc393ac438595bfefa69d79d, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1786
+      y: -243
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 121c89f40d9bc76489d68bf4d62ab15a, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1786
+      y: -429
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 22fcdd35e64c28941954f2c45393744d, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1270
+      y: 7
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 34b6fc46af558414f974196d11037caf, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 1501
+      y: -9
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 535eb23ca267d8d418626ff505e7d8b6, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2441
+      y: 531
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 7cec98c8298d12543bafae1c52af3a56, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2058
+      y: -184
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: e25d3fc1400a81641a3ba1278be9e0f4, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2058
+      y: -414
+      width: 213
+      height: 224
+  - dialogue: {fileID: 11400000, guid: 72d6be2cb6a83c0429a81c5db9203559, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2058
+      y: 7
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: e9d03d49919759543a96321933270549, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2334
+      y: -9
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 38747c83282a11e4a909455c659bd48e, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2569
+      y: 280
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 51bd50fe1ee486b458a860aeadb359f2, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2597
+      y: 96
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: d15d36c95220e944f86d7bbba9d5e95c, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 2840
+      y: 193
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: c7a6980e335c1ea4c85cb5a7e8fc307f, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3094
+      y: 442
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: 51337b2f93badce458f6f2854cb9ff62, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3089
+      y: 195
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: ce02c4564e0459440a64af339b7d325f, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3089
+      y: -7
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 3f2ce66a7144bcf428965f06069a20df, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3344
+      y: -213
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: bb19578f0e51a32429d95e15fbcce6f8, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3451
+      y: 203
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 6112ad7d24150ce449fc362992aab2fb, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3664
+      y: 20
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: dca55feb3edcb22488c4ebb3c58c51f7, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3936
+      y: -176
+      width: 213
+      height: 371
+  - dialogue: {fileID: 11400000, guid: 585669f6b005bbb41a6710305459ca5d, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4888
+      y: 276
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 1ba22992f3a02d541a924d7cfa8ff0c5, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4178
+      y: 363
+      width: 218
+      height: 146
+  - dialogue: {fileID: 11400000, guid: ea466bf77324c134bbe5016727836ce9, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 5279
+      y: 460
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 01c63a8b8bf55004aa47cf136741e967, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 5030
+      y: 460
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: ae987e2f665a0434cadabc0c8898cc87, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 3871
+      y: 363
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: a0c90872af4d2f34da6b1536e7cf8216, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4784
+      y: 460
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 2847186b95cc85747a9cbe85ad5eb3c4, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4545
+      y: 460
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: c87814b994883c3419a90d68fc98d595, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 4599
+      y: 276
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 178c525cf61b4c246908c504478f0dec, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 5877
+      y: 576
+      width: 213
+      height: 175
+  - dialogue: {fileID: 11400000, guid: 7f8be710f9430c44589e81cdfb04f4d3, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 5908
+      y: 280
+      width: 218
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 262702f0a85ece94a9aac975f43062db, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7591
+      y: 481
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: 6f56fff3d5c6be6428c0ffb4123d23b2, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7471
+      y: 255
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: aaa9170f401c7ec408f22c389d7e78dc, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 6913
+      y: 255
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: bc1912d039bb82548b1e652b615b436c, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 6625
+      y: 207
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 517317eb92a6e124e8e9b6947dd25e86, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7287
+      y: 430
+      width: 208
+      height: 146
+  - dialogue: {fileID: 11400000, guid: 39243a98bf67eef4a81e126ba43eae64, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7180
+      y: 255
+      width: 208
+      height: 159
+  - dialogue: {fileID: 11400000, guid: 0f6b18077a1392347937ec917a3e264c, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7729
+      y: 255
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 95ecae035f0455a488489e175d609ac2, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7966
+      y: 255
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 75ef731fe63c22b41a02c1bccc60b93f, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7966
+      y: 446
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 34160b2b598e4e24f8bbcfdb126445a7, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7966
+      y: 640
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 6d0d4fa14adc6de4e846d8c0f5ec6e78, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7695
+      y: 640
+      width: 213
+      height: 173
+  - dialogue: {fileID: 11400000, guid: 5bf8e5b52848b2044a026f6c097b7521, type: 2}
+    nodePosition:
+      serializedVersion: 2
+      x: 7025
+      y: 505
+      width: 213
+      height: 173
+  startingPosition:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: NaN
+    height: NaN
+  savePath: Assets/Dialogues/1-0.Assets

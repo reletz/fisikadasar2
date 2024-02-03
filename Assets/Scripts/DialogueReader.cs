@@ -69,6 +69,7 @@ public class DialogueReader : MonoBehaviour
 
     public void ShowName()
     {
+        if (isHidden) return;
         nameField.color = new Color(255, 255, 255, 1);
         dialogueField.rectTransform.anchorMax = new Vector2(dialogueField.rectTransform.anchorMax.x, 0.75f);
     }
@@ -86,6 +87,7 @@ public class DialogueReader : MonoBehaviour
 
     public void ShowDialogueBox()
     {
+        if (isHidden) return;
         dialogueBox.SetActive(true);
     }
 
@@ -114,6 +116,7 @@ public class DialogueReader : MonoBehaviour
 
     public void ShowOptions()
     {
+        if (isHidden) return;
         optionsParent.SetActive(true);
     }
 
@@ -182,6 +185,10 @@ public class DialogueReader : MonoBehaviour
     void Awake()
     {
         Initialize();
+    }
+
+    void Start()
+    {
         currentDialogue.Enter();
     }
 

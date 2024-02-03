@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887e09bf56248374cbcaa15b7fe473ca, type: 3}
+  m_Name: 19cb2f72c5b28434f9693c76b48e8310
+  m_EditorClassIdentifier: 
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1768265880414742553, guid: 1f755fda431773a4abf662be01f92a7a, type: 3}
+        m_TargetAssemblyTypeName: ActorManager, Assembly-CSharp
+        m_MethodName: ChangeCharacterMouth
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: aaf94af2088e307439c8d7f786ed6298, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  nextDialogue: {fileID: 11400000, guid: a2d6554bfc393ac438595bfefa69d79d, type: 2}

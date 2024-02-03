@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
+  m_Name: bd86c33e46b62614aab05b34b6a0192a
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: "Hi dear, How\u2019s your ..."
+  nextDialogue: {fileID: 11400000, guid: 4c2f6ded119192141ba4b2d826ac4eb7, type: 2}

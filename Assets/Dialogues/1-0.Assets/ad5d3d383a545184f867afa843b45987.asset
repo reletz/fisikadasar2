@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ecc28b65dcd44bae2fcaa5fe1276f, type: 3}
+  m_Name: ad5d3d383a545184f867afa843b45987
+  m_EditorClassIdentifier: 
+  actorName: Mom
+  text: "Let\u2019s do tic tac toe, that would be fun."
+  nextDialogue: {fileID: 11400000, guid: ea466bf77324c134bbe5016727836ce9, type: 2}

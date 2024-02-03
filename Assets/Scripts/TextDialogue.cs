@@ -19,6 +19,10 @@ public class TextDialogue : BaseDialogue
             DialogueReader.instance.ShowName();
             DialogueReader.instance.ChangeActorName(actorName);
         }
+        else
+        {
+            DialogueReader.instance.HideName();
+        }
 
         DialogueReader.instance.RequestText(text);
         DialogueReader.instance.onLeftMouseButtonDown.AddListener(EnterNext);
