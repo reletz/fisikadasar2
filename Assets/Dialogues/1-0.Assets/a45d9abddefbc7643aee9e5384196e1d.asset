@@ -18,4 +18,4 @@ MonoBehaviour:
   - text: Good game, Mom!
     nextDialogue: {fileID: 11400000, guid: bc1912d039bb82548b1e652b615b436c, type: 2}
   - text: "Let\u2019s do a rematch, again!"
-    nextDialogue: {fileID: 11400000, guid: 178c525cf61b4c246908c504478f0dec, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 7f0076c923db6024cb55aee277e0288f, type: 2}

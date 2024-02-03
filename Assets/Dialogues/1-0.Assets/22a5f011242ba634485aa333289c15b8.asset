@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 
   text: Beberapa hari kemudian ...
-  nextDialogue: {fileID: 11400000, guid: c7a6980e335c1ea4c85cb5a7e8fc307f, type: 2}
+  nextDialogue: {fileID: 11400000, guid: a70a0844b15493e4fb449abcb5d42612, type: 2}

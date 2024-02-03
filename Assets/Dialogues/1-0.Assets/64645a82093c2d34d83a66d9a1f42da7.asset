@@ -24,7 +24,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TicTacToeScene
+          m_StringArgument: 1-0
           m_BoolArgument: 0
         m_CallState: 2
   nextDialogue: {fileID: 11400000, guid: 7f8be710f9430c44589e81cdfb04f4d3, type: 2}

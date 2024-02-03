@@ -187,11 +187,6 @@ public class DialogueReader : MonoBehaviour
         Initialize();
     }
 
-    void Start()
-    {
-        currentDialogue.Enter();
-    }
-
     void Update()
     {
         if (isSkipping)

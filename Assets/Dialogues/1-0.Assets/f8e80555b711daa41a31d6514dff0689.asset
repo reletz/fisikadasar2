@@ -27,4 +27,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  nextDialogue: {fileID: 11400000, guid: 5954def23716a2349bed106690d6d889, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 89b1cf8e10c47ef4f827fc5cceb1f21e, type: 2}

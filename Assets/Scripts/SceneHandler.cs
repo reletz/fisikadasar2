@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -6,11 +7,15 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
+[Serializable]
+public class MessageEvent : UnityEvent<string> {}
+
 public class SceneHandler : MonoBehaviour
 {
     public static SceneHandler instance;
     public SceneMessage messagePrefab;
-    public UnityEvent<string> onMessageReceived;
+    public MessageEvent onMessageReceived;
+    public UnityEvent onLoadWithoutMessage;
 
     private string message;
 
@@ -29,6 +34,7 @@ public class SceneHandler : MonoBehaviour
         {
             SceneMessage sceneMessage = Instantiate(messagePrefab);
             sceneMessage.message = message;
+            sceneMessage.name = "SceneMessage";
             DontDestroyOnLoad(sceneMessage);
         }
 
@@ -45,7 +51,10 @@ public class SceneHandler : MonoBehaviour
     void Awake()
     {
         Initialize();
+    }
 
+    void Start()
+    {
         GameObject messageObject = GameObject.Find("SceneMessage");
 
         if (messageObject != null)
@@ -53,6 +62,10 @@ public class SceneHandler : MonoBehaviour
             SceneMessage sceneMessage = messageObject.GetComponent<SceneMessage>();
             onMessageReceived.Invoke(sceneMessage.message);
             Destroy(messageObject);
+        }
+        else
+        {
+            onLoadWithoutMessage.Invoke();
         }
     }
 }

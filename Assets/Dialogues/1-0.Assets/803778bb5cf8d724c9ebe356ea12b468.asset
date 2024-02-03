@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 887e09bf56248374cbcaa15b7fe473ca, type: 3}
-  m_Name: b6262c0260802904ab6eb641d81671f1
+  m_Name: 803778bb5cf8d724c9ebe356ea12b468
   m_EditorClassIdentifier: 
   onTrigger:
     m_PersistentCalls:
@@ -27,4 +27,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  nextDialogue: {fileID: 11400000, guid: 262702f0a85ece94a9aac975f43062db, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 5954def23716a2349bed106690d6d889, type: 2}

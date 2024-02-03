@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 887e09bf56248374cbcaa15b7fe473ca, type: 3}
-  m_Name: b6262c0260802904ab6eb641d81671f1
+  m_Name: 71662c18c49bff34794c23cdde5b53d8
   m_EditorClassIdentifier: 
   onTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3717434016199966105, guid: fcfe23b7a030405448d73a9d6a3a9c40, type: 3}
-        m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
-        m_MethodName: SwitchBackground
-        m_Mode: 2
+      - m_Target: {fileID: 1699890319316711522, guid: fb2b758e2296cca439a2a0e2be34eb3f, type: 3}
+        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+        m_MethodName: AddMessage
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 7dae43e337028ad4cba29d3086517ec9, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: TicTacToeWin
           m_BoolArgument: 0
         m_CallState: 2
-  nextDialogue: {fileID: 11400000, guid: 262702f0a85ece94a9aac975f43062db, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 178c525cf61b4c246908c504478f0dec, type: 2}
